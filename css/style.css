@@ -1,5 +1,6 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: #85dcb8;
 }
 
 .count-input {
@@ -8,6 +9,20 @@ body {
 }
 
 
+
+@font-face {
+    font-family: DelaG;
+    font-weight: normal;
+    src: url(E:\GIT\laba1\WEB_Laba1\fonts\DelaGothicOne-Regular.ttf);
+}
+
+.font-header{
+    font: 40px DeLaG;
+    height: 20px;
+    width: 200px;
+    font-size: 150%;
+    color: #FFF;
+}
 
 .add-to-basket-block {
 	margin-top: 7px;
