@@ -33,9 +33,14 @@ body {
 }
 
 .slide-image {
-    width: 100%;
+    width: auto;
+    height: auto;
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    transition: opacity 0.3s;
 }
-
 .carousel-holder {
     margin-bottom: 30px;
 }
